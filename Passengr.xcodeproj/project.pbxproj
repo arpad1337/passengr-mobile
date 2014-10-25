@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B6171A479804FE0B6242411 /* libPods-Passengr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21F24F135B1541C188079C4E /* libPods-Passengr.a */; };
+		BA1A6C0C19800642009A88E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1A6C0B19800642009A88E2 /* ViewController.m */; };
+		BA1A6C0D19800838009A88E2 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB83252197FF3E9004CEC06 /* Helper.m */; };
+		BA1A6C1019801619009A88E2 /* Airport.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BA1A6C0F19801612009A88E2 /* Airport.ttf */; };
+		BA1A6C131981032D009A88E2 /* SelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1A6C121981032D009A88E2 /* SelectorView.m */; };
+		BA1A6C151981034C009A88E2 /* SelectorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1A6C141981034C009A88E2 /* SelectorView.xib */; };
+		BA1A6C1919810768009A88E2 /* SelectionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1A6C1719810768009A88E2 /* SelectionTableViewCell.m */; };
+		BA1A6C1A19810768009A88E2 /* SelectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA1A6C1819810768009A88E2 /* SelectionTableViewCell.xib */; };
+		BA2638F719ACCA5400EAEA05 /* SnapshotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2638F619ACCA5400EAEA05 /* SnapshotViewController.m */; };
+		BA29DE4219825D3C0039967F /* ChatLeftBubbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA29DE4019825D3C0039967F /* ChatLeftBubbleTableViewCell.m */; };
+		BA29DE4319825D3C0039967F /* ChatLeftBubbleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA29DE4119825D3C0039967F /* ChatLeftBubbleTableViewCell.xib */; };
+		BA29DE46198261A50039967F /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA29DE45198261A50039967F /* ChatViewController.m */; };
+		BA2A093019925B5000AF731F /* AboutView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2A092F19925B5000AF731F /* AboutView.m */; };
+		BA2A093219925B6400AF731F /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2A093119925B6400AF731F /* AboutView.xib */; };
+		BA2A093519926F2100AF731F /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA2A093419926F2100AF731F /* AlertView.m */; };
+		BA2A093719926F3100AF731F /* AlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA2A093619926F3100AF731F /* AlertView.xib */; };
+		BA4B9DAF19ACBE9A0063069E /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4B9DAE19ACBE9A0063069E /* Social.framework */; };
+		BA50F69919FC115D006FA7DC /* ChatBubbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA50F69819FC115D006FA7DC /* ChatBubbleTableViewCell.m */; };
+		BA50F6A019FC22A5006FA7DC /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = BA50F69F19FC22A5006FA7DC /* Message.m */; };
+		BA50F6A419FC25C2006FA7DC /* ChatNotificationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA50F6A219FC25C2006FA7DC /* ChatNotificationTableViewCell.m */; };
+		BA50F6A519FC25C2006FA7DC /* ChatNotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA50F6A319FC25C2006FA7DC /* ChatNotificationTableViewCell.xib */; };
+		BA50F6A819FC26A0006FA7DC /* ChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA50F6A719FC26A0006FA7DC /* ChatTableViewCell.m */; };
+		BA51AF801983A67A00A0C933 /* ChatRightBubbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BA51AF7E1983A67A00A0C933 /* ChatRightBubbleTableViewCell.m */; };
+		BA51AF811983A67A00A0C933 /* ChatRightBubbleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA51AF7F1983A67A00A0C933 /* ChatRightBubbleTableViewCell.xib */; };
+		BA51AF841983AE9900A0C933 /* MenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA51AF831983AE9900A0C933 /* MenuButton.m */; };
+		BA51AF861983AEB400A0C933 /* MenuButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA51AF851983AEB400A0C933 /* MenuButton.xib */; };
 		BAB8320D197A91EA004CEC06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB8320C197A91EA004CEC06 /* Foundation.framework */; };
 		BAB8320F197A91EA004CEC06 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB8320E197A91EA004CEC06 /* CoreGraphics.framework */; };
 		BAB83211197A91EA004CEC06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB83210197A91EA004CEC06 /* UIKit.framework */; };
@@ -14,13 +40,13 @@
 		BAB83219197A91EA004CEC06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB83218197A91EA004CEC06 /* main.m */; };
 		BAB8321D197A91EA004CEC06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB8321C197A91EA004CEC06 /* AppDelegate.m */; };
 		BAB83220197A91EA004CEC06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB8321E197A91EA004CEC06 /* Main.storyboard */; };
-		BAB83223197A91EA004CEC06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB83222197A91EA004CEC06 /* ViewController.m */; };
 		BAB83225197A91EA004CEC06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB83224197A91EA004CEC06 /* Images.xcassets */; };
 		BAB8322C197A91EB004CEC06 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB8322B197A91EB004CEC06 /* XCTest.framework */; };
 		BAB8322D197A91EB004CEC06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB8320C197A91EA004CEC06 /* Foundation.framework */; };
 		BAB8322E197A91EB004CEC06 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAB83210197A91EA004CEC06 /* UIKit.framework */; };
 		BAB83236197A91EB004CEC06 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BAB83234197A91EB004CEC06 /* InfoPlist.strings */; };
 		BAB83238197A91EB004CEC06 /* PassengrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB83237197A91EB004CEC06 /* PassengrTests.m */; };
+		BAB8324E197FF3BF004CEC06 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB8324C197FF3BF004CEC06 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +60,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02A0FD8B89AC40EBB5D70526 /* Pods-Passengr.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Passengr.xcconfig"; path = "Pods/Pods-Passengr.xcconfig"; sourceTree = "<group>"; };
+		21F24F135B1541C188079C4E /* libPods-Passengr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Passengr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1A6C0A19800642009A88E2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA1A6C0B19800642009A88E2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA1A6C0F19801612009A88E2 /* Airport.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Airport.ttf; sourceTree = "<group>"; };
+		BA1A6C111981032D009A88E2 /* SelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectorView.h; sourceTree = "<group>"; };
+		BA1A6C121981032D009A88E2 /* SelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectorView.m; sourceTree = "<group>"; };
+		BA1A6C141981034C009A88E2 /* SelectorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectorView.xib; sourceTree = "<group>"; };
+		BA1A6C1619810768009A88E2 /* SelectionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectionTableViewCell.h; sourceTree = "<group>"; };
+		BA1A6C1719810768009A88E2 /* SelectionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectionTableViewCell.m; sourceTree = "<group>"; };
+		BA1A6C1819810768009A88E2 /* SelectionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectionTableViewCell.xib; sourceTree = "<group>"; };
+		BA2638F519ACCA5400EAEA05 /* SnapshotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapshotViewController.h; sourceTree = "<group>"; };
+		BA2638F619ACCA5400EAEA05 /* SnapshotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapshotViewController.m; sourceTree = "<group>"; };
+		BA29DE3F19825D3C0039967F /* ChatLeftBubbleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatLeftBubbleTableViewCell.h; sourceTree = "<group>"; };
+		BA29DE4019825D3C0039967F /* ChatLeftBubbleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatLeftBubbleTableViewCell.m; sourceTree = "<group>"; };
+		BA29DE4119825D3C0039967F /* ChatLeftBubbleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatLeftBubbleTableViewCell.xib; sourceTree = "<group>"; };
+		BA29DE44198261A50039967F /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		BA29DE45198261A50039967F /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		BA2A092E19925B5000AF731F /* AboutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutView.h; sourceTree = "<group>"; };
+		BA2A092F19925B5000AF731F /* AboutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutView.m; sourceTree = "<group>"; };
+		BA2A093119925B6400AF731F /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		BA2A093319926F2100AF731F /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		BA2A093419926F2100AF731F /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		BA2A093619926F3100AF731F /* AlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AlertView.xib; sourceTree = "<group>"; };
+		BA4B9DAE19ACBE9A0063069E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		BA50F69719FC115D006FA7DC /* ChatBubbleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatBubbleTableViewCell.h; sourceTree = "<group>"; };
+		BA50F69819FC115D006FA7DC /* ChatBubbleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatBubbleTableViewCell.m; sourceTree = "<group>"; };
+		BA50F69E19FC22A5006FA7DC /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		BA50F69F19FC22A5006FA7DC /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		BA50F6A119FC25C2006FA7DC /* ChatNotificationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatNotificationTableViewCell.h; sourceTree = "<group>"; };
+		BA50F6A219FC25C2006FA7DC /* ChatNotificationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatNotificationTableViewCell.m; sourceTree = "<group>"; };
+		BA50F6A319FC25C2006FA7DC /* ChatNotificationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatNotificationTableViewCell.xib; sourceTree = "<group>"; };
+		BA50F6A619FC26A0006FA7DC /* ChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewCell.h; sourceTree = "<group>"; };
+		BA50F6A719FC26A0006FA7DC /* ChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewCell.m; sourceTree = "<group>"; };
+		BA51AF7D1983A67A00A0C933 /* ChatRightBubbleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRightBubbleTableViewCell.h; sourceTree = "<group>"; };
+		BA51AF7E1983A67A00A0C933 /* ChatRightBubbleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRightBubbleTableViewCell.m; sourceTree = "<group>"; };
+		BA51AF7F1983A67A00A0C933 /* ChatRightBubbleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRightBubbleTableViewCell.xib; sourceTree = "<group>"; };
+		BA51AF821983AE9900A0C933 /* MenuButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuButton.h; sourceTree = "<group>"; };
+		BA51AF831983AE9900A0C933 /* MenuButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuButton.m; sourceTree = "<group>"; };
+		BA51AF851983AEB400A0C933 /* MenuButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuButton.xib; sourceTree = "<group>"; };
 		BAB83209197A91EA004CEC06 /* Passengr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Passengr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB8320C197A91EA004CEC06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BAB8320E197A91EA004CEC06 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +111,16 @@
 		BAB8321B197A91EA004CEC06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BAB8321C197A91EA004CEC06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BAB8321F197A91EA004CEC06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BAB83221197A91EA004CEC06 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BAB83222197A91EA004CEC06 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BAB83224197A91EA004CEC06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BAB8322A197A91EB004CEC06 /* PassengrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassengrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAB8322B197A91EB004CEC06 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BAB83233197A91EB004CEC06 /* PassengrTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PassengrTests-Info.plist"; sourceTree = "<group>"; };
 		BAB83235197A91EB004CEC06 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BAB83237197A91EB004CEC06 /* PassengrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassengrTests.m; sourceTree = "<group>"; };
+		BAB8324B197FF3BF004CEC06 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		BAB8324C197FF3BF004CEC06 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		BAB83251197FF3E9004CEC06 /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		BAB83252197FF3E9004CEC06 /* Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +128,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA4B9DAF19ACBE9A0063069E /* Social.framework in Frameworks */,
 				BAB8320F197A91EA004CEC06 /* CoreGraphics.framework in Frameworks */,
 				BAB83211197A91EA004CEC06 /* UIKit.framework in Frameworks */,
 				BAB8320D197A91EA004CEC06 /* Foundation.framework in Frameworks */,
+				2B6171A479804FE0B6242411 /* libPods-Passengr.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +149,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA1A6C05198004E6009A88E2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA1A6C0F19801612009A88E2 /* Airport.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		BAB83200197A91EA004CEC06 = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +164,7 @@
 				BAB83231197A91EB004CEC06 /* PassengrTests */,
 				BAB8320B197A91EA004CEC06 /* Frameworks */,
 				BAB8320A197A91EA004CEC06 /* Products */,
+				02A0FD8B89AC40EBB5D70526 /* Pods-Passengr.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +180,12 @@
 		BAB8320B197A91EA004CEC06 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BA4B9DAE19ACBE9A0063069E /* Social.framework */,
 				BAB8320C197A91EA004CEC06 /* Foundation.framework */,
 				BAB8320E197A91EA004CEC06 /* CoreGraphics.framework */,
 				BAB83210197A91EA004CEC06 /* UIKit.framework */,
 				BAB8322B197A91EB004CEC06 /* XCTest.framework */,
+				21F24F135B1541C188079C4E /* libPods-Passengr.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -112,11 +193,16 @@
 		BAB83212197A91EA004CEC06 /* Passengr */ = {
 			isa = PBXGroup;
 			children = (
+				BA1A6C0A19800642009A88E2 /* ViewController.h */,
+				BA1A6C0B19800642009A88E2 /* ViewController.m */,
+				BA1A6C05198004E6009A88E2 /* Resources */,
+				BAB83250197FF3C6004CEC06 /* Helper */,
+				BAB83249197FF351004CEC06 /* Views */,
+				BAB83248197FF33E004CEC06 /* Data */,
+				BAB83247197FF333004CEC06 /* Controllers */,
 				BAB8321B197A91EA004CEC06 /* AppDelegate.h */,
 				BAB8321C197A91EA004CEC06 /* AppDelegate.m */,
 				BAB8321E197A91EA004CEC06 /* Main.storyboard */,
-				BAB83221197A91EA004CEC06 /* ViewController.h */,
-				BAB83222197A91EA004CEC06 /* ViewController.m */,
 				BAB83224197A91EA004CEC06 /* Images.xcassets */,
 				BAB83213197A91EA004CEC06 /* Supporting Files */,
 			);
@@ -152,6 +238,72 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BAB83247197FF333004CEC06 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BAB8324B197FF3BF004CEC06 /* LoginViewController.h */,
+				BAB8324C197FF3BF004CEC06 /* LoginViewController.m */,
+				BA29DE44198261A50039967F /* ChatViewController.h */,
+				BA29DE45198261A50039967F /* ChatViewController.m */,
+				BA2638F519ACCA5400EAEA05 /* SnapshotViewController.h */,
+				BA2638F619ACCA5400EAEA05 /* SnapshotViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BAB83248197FF33E004CEC06 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				BA50F69E19FC22A5006FA7DC /* Message.h */,
+				BA50F69F19FC22A5006FA7DC /* Message.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		BAB83249197FF351004CEC06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA1A6C111981032D009A88E2 /* SelectorView.h */,
+				BA1A6C121981032D009A88E2 /* SelectorView.m */,
+				BA1A6C141981034C009A88E2 /* SelectorView.xib */,
+				BA1A6C1619810768009A88E2 /* SelectionTableViewCell.h */,
+				BA1A6C1719810768009A88E2 /* SelectionTableViewCell.m */,
+				BA1A6C1819810768009A88E2 /* SelectionTableViewCell.xib */,
+				BA29DE3F19825D3C0039967F /* ChatLeftBubbleTableViewCell.h */,
+				BA29DE4019825D3C0039967F /* ChatLeftBubbleTableViewCell.m */,
+				BA29DE4119825D3C0039967F /* ChatLeftBubbleTableViewCell.xib */,
+				BA51AF7D1983A67A00A0C933 /* ChatRightBubbleTableViewCell.h */,
+				BA51AF7E1983A67A00A0C933 /* ChatRightBubbleTableViewCell.m */,
+				BA51AF7F1983A67A00A0C933 /* ChatRightBubbleTableViewCell.xib */,
+				BA51AF821983AE9900A0C933 /* MenuButton.h */,
+				BA51AF831983AE9900A0C933 /* MenuButton.m */,
+				BA51AF851983AEB400A0C933 /* MenuButton.xib */,
+				BA2A092E19925B5000AF731F /* AboutView.h */,
+				BA2A092F19925B5000AF731F /* AboutView.m */,
+				BA2A093119925B6400AF731F /* AboutView.xib */,
+				BA2A093319926F2100AF731F /* AlertView.h */,
+				BA2A093419926F2100AF731F /* AlertView.m */,
+				BA2A093619926F3100AF731F /* AlertView.xib */,
+				BA50F69719FC115D006FA7DC /* ChatBubbleTableViewCell.h */,
+				BA50F69819FC115D006FA7DC /* ChatBubbleTableViewCell.m */,
+				BA50F6A119FC25C2006FA7DC /* ChatNotificationTableViewCell.h */,
+				BA50F6A219FC25C2006FA7DC /* ChatNotificationTableViewCell.m */,
+				BA50F6A319FC25C2006FA7DC /* ChatNotificationTableViewCell.xib */,
+				BA50F6A619FC26A0006FA7DC /* ChatTableViewCell.h */,
+				BA50F6A719FC26A0006FA7DC /* ChatTableViewCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BAB83250197FF3C6004CEC06 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BAB83251197FF3E9004CEC06 /* Helper.h */,
+				BAB83252197FF3E9004CEC06 /* Helper.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +311,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAB8323B197A91EB004CEC06 /* Build configuration list for PBXNativeTarget "Passengr" */;
 			buildPhases = (
+				A369FB529E5040ED97EE731B /* Check Pods Manifest.lock */,
 				BAB83205197A91EA004CEC06 /* Sources */,
 				BAB83206197A91EA004CEC06 /* Frameworks */,
 				BAB83207197A91EA004CEC06 /* Resources */,
+				4BD7447CB832445C9A06C840 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +353,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Peabo Media Kft.";
 				TargetAttributes = {
+					BAB83208197A91EA004CEC06 = {
+						DevelopmentTeam = 93ZBX27X5D;
+					};
 					BAB83229197A91EB004CEC06 = {
 						TestTargetID = BAB83208197A91EA004CEC06;
 					};
@@ -228,9 +385,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA2A093219925B6400AF731F /* AboutView.xib in Resources */,
+				BA1A6C1019801619009A88E2 /* Airport.ttf in Resources */,
+				BA1A6C151981034C009A88E2 /* SelectorView.xib in Resources */,
 				BAB83225197A91EA004CEC06 /* Images.xcassets in Resources */,
 				BAB83217197A91EA004CEC06 /* InfoPlist.strings in Resources */,
+				BA51AF811983A67A00A0C933 /* ChatRightBubbleTableViewCell.xib in Resources */,
+				BA1A6C1A19810768009A88E2 /* SelectionTableViewCell.xib in Resources */,
+				BA29DE4319825D3C0039967F /* ChatLeftBubbleTableViewCell.xib in Resources */,
+				BA50F6A519FC25C2006FA7DC /* ChatNotificationTableViewCell.xib in Resources */,
 				BAB83220197A91EA004CEC06 /* Main.storyboard in Resources */,
+				BA51AF861983AEB400A0C933 /* MenuButton.xib in Resources */,
+				BA2A093719926F3100AF731F /* AlertView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +410,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4BD7447CB832445C9A06C840 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-Passengr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A369FB529E5040ED97EE731B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BAB83205197A91EA004CEC06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAB83223197A91EA004CEC06 /* ViewController.m in Sources */,
+				BA1A6C0D19800838009A88E2 /* Helper.m in Sources */,
+				BA2A093519926F2100AF731F /* AlertView.m in Sources */,
+				BA1A6C131981032D009A88E2 /* SelectorView.m in Sources */,
+				BA29DE4219825D3C0039967F /* ChatLeftBubbleTableViewCell.m in Sources */,
+				BAB8324E197FF3BF004CEC06 /* LoginViewController.m in Sources */,
+				BA2A093019925B5000AF731F /* AboutView.m in Sources */,
+				BA2638F719ACCA5400EAEA05 /* SnapshotViewController.m in Sources */,
+				BA1A6C1919810768009A88E2 /* SelectionTableViewCell.m in Sources */,
+				BA50F6A419FC25C2006FA7DC /* ChatNotificationTableViewCell.m in Sources */,
 				BAB8321D197A91EA004CEC06 /* AppDelegate.m in Sources */,
+				BA50F6A019FC22A5006FA7DC /* Message.m in Sources */,
+				BA50F6A819FC26A0006FA7DC /* ChatTableViewCell.m in Sources */,
+				BA50F69919FC115D006FA7DC /* ChatBubbleTableViewCell.m in Sources */,
+				BA51AF801983A67A00A0C933 /* ChatRightBubbleTableViewCell.m in Sources */,
+				BA1A6C0C19800642009A88E2 /* ViewController.m in Sources */,
 				BAB83219197A91EA004CEC06 /* main.m in Sources */,
+				BA29DE46198261A50039967F /* ChatViewController.m in Sources */,
+				BA51AF841983AE9900A0C933 /* MenuButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,12 +587,15 @@
 		};
 		BAB8323C197A91EB004CEC06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A0FD8B89AC40EBB5D70526 /* Pods-Passengr.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Passengr/Passengr-Prefix.pch";
 				INFOPLIST_FILE = "Passengr/Passengr-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -386,12 +603,15 @@
 		};
 		BAB8323D197A91EB004CEC06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A0FD8B89AC40EBB5D70526 /* Pods-Passengr.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Passengr/Passengr-Prefix.pch";
 				INFOPLIST_FILE = "Passengr/Passengr-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +676,7 @@
 				BAB8323D197A91EB004CEC06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BAB8323E197A91EB004CEC06 /* Build configuration list for PBXNativeTarget "PassengrTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +685,7 @@
 				BAB83240197A91EB004CEC06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

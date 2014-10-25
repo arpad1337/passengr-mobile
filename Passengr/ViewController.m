@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "Helper.h"
+#import "LoginViewController.h"
+#import "ChatViewController.h"
 
 @interface ViewController ()
 
@@ -18,6 +21,25 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSString *launchImage;
+    if  ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) &&
+         ([UIScreen mainScreen].bounds.size.height > 480.0f)) {
+        launchImage = @"LaunchImage-700-568h";
+    } else {
+        launchImage = @"LaunchImage-700";
+    }
+    [self.backgroundImageView setImage:[UIImage imageNamed:launchImage]];
+}
+
+-(void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    if(![Helper sharedInstance].age || ![Helper sharedInstance].gender) {
+        LoginViewController* vc = [self.storyboard instantiateViewControllerWithIdentifier:@"LoginViewControllerID"];
+        [self presentViewController:vc animated:YES completion:nil];
+    } else {
+        ChatViewController* vc = [self.storyboard instantiateViewControllerWithIdentifier:@"ChatViewControllerID"];
+        [self presentViewController:vc animated:YES completion:nil];
+    }
 }
 
 - (void)didReceiveMemoryWarning

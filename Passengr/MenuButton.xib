@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5053" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MenuButton">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2sA-8V-26P">
+                    <rect key="frame" x="10" y="0.0" width="300" height="50"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eXQ-zA-TOb">
+                            <rect key="frame" x="10" y="10" width="30" height="30"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="A8g-Qt-jqb"/>
+                                <constraint firstAttribute="height" constant="30" id="JfJ-ip-8ww"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5o-lK-Z8U">
+                            <rect key="frame" x="50" y="10" width="240" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="Airport"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="eXQ-zA-TOb" secondAttribute="bottom" constant="10" id="0FI-Wu-5yP"/>
+                        <constraint firstItem="eXQ-zA-TOb" firstAttribute="leading" secondItem="2sA-8V-26P" secondAttribute="leading" constant="10" id="BW9-EA-hp9"/>
+                        <constraint firstItem="eXQ-zA-TOb" firstAttribute="top" secondItem="2sA-8V-26P" secondAttribute="top" constant="10" id="JP3-gi-flq"/>
+                        <constraint firstAttribute="bottom" secondItem="P5o-lK-Z8U" secondAttribute="bottom" constant="10" id="b1R-7Z-PBs"/>
+                        <constraint firstItem="P5o-lK-Z8U" firstAttribute="top" secondItem="2sA-8V-26P" secondAttribute="top" constant="10" id="bNs-cD-Ubc"/>
+                        <constraint firstItem="P5o-lK-Z8U" firstAttribute="leading" secondItem="eXQ-zA-TOb" secondAttribute="trailing" constant="10" id="lTq-ci-dcD"/>
+                        <constraint firstAttribute="trailing" secondItem="P5o-lK-Z8U" secondAttribute="trailing" constant="10" id="sOA-ST-hHJ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="2sA-8V-26P" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1rh-vd-icb"/>
+                <constraint firstAttribute="bottom" secondItem="2sA-8V-26P" secondAttribute="bottom" constant="10" id="Gg5-74-pvf"/>
+                <constraint firstAttribute="trailing" secondItem="2sA-8V-26P" secondAttribute="trailing" constant="10" id="PRh-jk-9cd"/>
+                <constraint firstItem="2sA-8V-26P" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="10" id="yQa-Fg-WUj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="backgroundView" destination="2sA-8V-26P" id="1Dp-wC-Jeg"/>
+                <outlet property="buttonTitleLabel" destination="P5o-lK-Z8U" id="ZkN-GQ-CeV"/>
+                <outlet property="iconImageView" destination="eXQ-zA-TOb" id="a8M-or-cn6"/>
+            </connections>
+        </view>
+    </objects>
+</document>
