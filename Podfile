@@ -6,7 +6,8 @@ target "Passengr" do
 pod "AFNetworking", "~> 2.0"
 pod 'AVHexColor', '~> 1.1.0'
 pod 'Canvas'
-pod 'ILTranslucentView'
+pod 'MagicalRecord'
+pod 'SIOSocket'
 
 end
 

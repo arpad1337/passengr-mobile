@@ -70,6 +70,8 @@ static bool isFirstAccess = YES;
     return self;
 }
 
+#pragma mark - Helpers
+
 -(NSString *)dateDiff:(NSDate*)date {
     NSDate *todayDate = [NSDate date];
     double ti = [date timeIntervalSinceDate:todayDate];

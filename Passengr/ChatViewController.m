@@ -11,6 +11,7 @@
 #import "ChatRightBubbleTableViewCell.h"
 #import "ChatNotificationTableViewCell.h"
 #import "MenuButton.h"
+#import "SessionManager.h"
 #import "Helper.h"
 #import "Message.h"
 
@@ -27,16 +28,6 @@
     BOOL _isAboutHidden;
 }
 
-@end
-
-@implementation UITextField (custom)
-- (CGRect)textRectForBounds:(CGRect)bounds {
-    return CGRectMake(bounds.origin.x + 10, bounds.origin.y,
-                      bounds.size.width - 10, bounds.size.height);
-}
-- (CGRect)editingRectForBounds:(CGRect)bounds {
-    return [self textRectForBounds:bounds];
-}
 @end
 
 static NSString* kLeftBubbleReuseIdent = @"ChatLeftBubbleReuseID";
@@ -145,6 +136,7 @@ static NSString* kNotificationReuseIdent = @"ChatNotificationReuseID";
     [change configureButton:[UIImage imageNamed:@"menuChange"] withTitle:@"Change details"];
     [self.view addSubview:change];
     
+    [change addTarget:self action:@selector(dropChangeDetailsConfirmation) forControlEvents:UIControlEventTouchUpInside];
     [change addTarget:self action:@selector(hideKeyboard) forControlEvents:UIControlEventTouchUpInside];
     
     [tmp addObject:change];
@@ -336,11 +328,13 @@ static NSString* kNotificationReuseIdent = @"ChatNotificationReuseID";
 
 #pragma mark Change details 
 -(void)changeDetails {
-    
+    [SessionManager sharedInstance].gender = nil;
+    [SessionManager sharedInstance].age = nil;
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 #pragma mark Report User
--(void)reportUser:(MenuButton*)button {
+-(void)reportUser {
     
 }
 
@@ -394,15 +388,23 @@ static NSString* kNotificationReuseIdent = @"ChatNotificationReuseID";
 }
 
 -(void)dropUserReportConfirmation {
-    [_alertView dropAlertWithTitle:@"Confirmation" withDescription:@"Are you sure you want to report this user? Lorem ipsum dolor sit amet" andType:kReport];
+    [self toggleMenu:self.toggleMenuButton];
+    [_alertView dropAlertWithTitle:@"Report user" withDescription:@"Are you sure you want to report this user?" andType:kReport];
+}
+
+-(void)dropChangeDetailsConfirmation {
+    [self toggleMenu:self.toggleMenuButton];
+    [_alertView dropAlertWithTitle:@"Change details" withDescription:@"Are you sure you want to change your details and interrupt this session?" andType:kChangeDetails];
 }
 
 -(void)alertViewDidAccept:(AlertView *)alertView withType:(AlertType)type{
     switch (type) {
         case kReport:
-            
+            [self reportUser];
             break;
-            
+        case kChangeDetails:
+            [self changeDetails];
+            break;
         default:
             break;
     }

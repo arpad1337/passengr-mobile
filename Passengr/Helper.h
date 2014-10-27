@@ -11,9 +11,6 @@
 @property (nonatomic, strong) UIColor* mainColor;
 @property (nonatomic, strong) UIColor* secondaryColor;
 
-@property (nonatomic, strong) NSString* gender;
-@property (nonatomic, strong) NSNumber* age;
-
 /**
  * gets singleton object.
  * @return singleton
@@ -22,4 +19,14 @@
 
 -(NSString *)dateDiff:(NSDate*)date;
 
+@end
+
+@implementation UITextField (custom)
+- (CGRect)textRectForBounds:(CGRect)bounds {
+    return CGRectMake(bounds.origin.x + 10, bounds.origin.y,
+                      bounds.size.width - 10, bounds.size.height);
+}
+- (CGRect)editingRectForBounds:(CGRect)bounds {
+    return [self textRectForBounds:bounds];
+}
 @end

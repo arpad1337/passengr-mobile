@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SessionManager.h"
 #import "Helper.h"
 #import "LoginViewController.h"
 #import "ChatViewController.h"
@@ -33,7 +34,7 @@
 
 -(void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    if(![Helper sharedInstance].age || ![Helper sharedInstance].gender) {
+    if(![SessionManager sharedInstance].age || ![SessionManager sharedInstance].gender) {
         LoginViewController* vc = [self.storyboard instantiateViewControllerWithIdentifier:@"LoginViewControllerID"];
         [self presentViewController:vc animated:YES completion:nil];
     } else {

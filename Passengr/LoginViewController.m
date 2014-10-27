@@ -7,6 +7,7 @@
 //
 
 #import "LoginViewController.h"
+#import "SessionManager.h"
 #import "Helper.h"
 
 typedef NS_ENUM(NSUInteger, SelectionType) {
@@ -122,8 +123,8 @@ typedef NS_ENUM(NSUInteger, SelectionType) {
     }
 }
 - (IBAction)startSession:(id)sender {
-    [Helper sharedInstance].gender = self.gender;
-    [Helper sharedInstance].age = self.age;
+    [SessionManager sharedInstance].gender = self.gender;
+    [SessionManager sharedInstance].age = self.age;
     [self dismissViewControllerAnimated:YES completion:^{
         
     }];

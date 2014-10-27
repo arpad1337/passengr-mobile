@@ -9,7 +9,8 @@
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSUInteger, AlertType) {
-    kReport
+    kReport,
+    kChangeDetails
 };
 
 @interface AlertView : UIView
